@@ -22,5 +22,6 @@ export interface Property {
   image: string;
   price: number;
   rating: number;
+  description: string;
   location?: string;
 }
