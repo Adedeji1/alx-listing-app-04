@@ -25,3 +25,13 @@ export interface Property {
   description: string;
   location?: string;
 }
+export interface BookingData {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phoneNumber: string;
+  cardNumber: string;
+  expirationDate: string;
+  cvv: string;
+  billingAddress: string;
+}
