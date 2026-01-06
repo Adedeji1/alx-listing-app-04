@@ -35,3 +35,10 @@ export interface BookingData {
   cvv: string;
   billingAddress: string;
 }
+export interface Review {
+  id: string;
+  comment: string;
+  rating?: number;
+  author?: string;
+  createdAt?: string;
+}
